@@ -12,5 +12,12 @@ public class DArray {
             }
             System.out.println();
         }
+        System.out.println("Printing Array without variable rotating");
+        for (int n[]: nums){
+            for (int m: n){
+                System.out.print(m/10 + " ");
+            }
+            System.out.println();
+        }
     }
 }
